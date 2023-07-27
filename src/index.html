@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="icon" href="../brain.svg" type="image/svg+xml">
+    <title>Consultório Online - Laís Yamada</title>
+  </head>
+  <body>
+
+    <header class="font-mono">
+      <div
+        class="flex px-10 py-4 items-center text-center flex-col lg:flex lg:flex-row lg:items-center lg:justify-between lg:px-16 lg:py-1 bg-red-200"
+      >
+        <h1 class="hidden lg:block md:text-4xl">Yamada</h1>
+        <div class="">
+          <img
+            class="pl-6 sm:pl-6 md:pl-6 lg:pl-20"
+            src="/img/dd-removebg-preview.png"
+            alt="logo yamada"
+          />
+        </div>
+        <nav>
+          <ul
+            class="flex flex-col gap-4 lg:flex lg:flex-row lg:justify-between lg:gap-6 lg:p-2"
+          >
+            <li>
+              <a
+                class="p-2 lg:flex items-center border-solid border border-red-200 hover:rounded-lg hover:border-solid hover:border-black ease-in duration-300"
+                href="#about"
+                >Sobre Mim</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="p-2 lg:flex items-center border-solid border border-red-200 hover:rounded-lg hover:border-solid hover:border-black ease-in duration-300"
+                href="#especialidades"
+                >Especialidades</a
+              >
+            </li>
+            <li>
+              <a
+                class="p-2 lg:flex items-center border-solid border border-red-200 hover:rounded-lg hover:border-solid hover:border-black ease-in duration-300"
+                href="#contato"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-gray-50 to-red-200 lg:grid lg:gap-10 lg:grid-cols-2 lg:items-center lg:justify-center font-mono lg:ps-36 py-14"
+    >
+      <div
+        class="lg:max-w-screen-xl text-center flex flex-col items-center justify-center"
+      >
+        <div class="px-3 flex flex-col gap-3">
+          <h1 class="text-4xl lg:text-5xl">PSICOTERAPIA</h1>
+          <h2 class="text-3xl lg:text-5xl lg:tracking-wide lg:my-4">
+            ONLINE E PRESENCIAL
+          </h2>
+        </div>
+        <button
+          class="my-6 text-sm p-4 bg-red-200 border-solid border border-transparent rounded-xl lg:my-4 hover:bg-transparent hover:border-black hover:border ease-in duration-500"
+        >
+          Agende sua Consulta
+        </button>
+        <p class="my-2 text-xl">
+          Atendimento para adolescentes, adultos e idosos.
+        </p>
+      </div>
+      <div>
+        <img
+          class="hidden lg:flex lg:items-center lg:justify-center lg:max-w-sm lg:rounded-full"
+          src="/img/Namy.png"
+          alt=""
+        />
+      </div>
+    </main>
+
+    <section id="about"
+      class="bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-gray-50 to-red-200 lg:p-14"
+    >
+      <div class="lg:items-center lg:text-2xl">
+        <div class="p-8">
+          <h1 class="text-center my-6 text-4xl">Psicóloga Laís Yamada</h1>
+          <h2 class="text-center my-4">CRP 99/32587</h2>
+          <p>
+            Início de carreira com 3 anos consecutivos de curso técnico de
+            Marketing integrado ao ensino médio, possibilitando participação em
+            projetos de divulgação em campanhas solidárias e trabalhos externos
+            para pequenas empresas na área de marketing digital e social media.
+            Atualmente cursando psicologia e com intenções de ingressar na área
+            para obter experiências complementares que agreguem em minha
+            carreira profissional na área.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="especialidades" class="pt-16 pr-8 pb-20 pl-8">
+      <h1 class="text-center text-4xl mb-5 md:md:mb-8">Especialidades</h1>
+      <div
+        class="grid gap-5 md:grid md:grid-cols-3 md:grid-rows-2"
+      >
+        <div class="px-6 py-4 bg-red-200 rounded-2xl">
+          <div class="flex gap-5 items-center">
+            <img src="../img/sad-but-relieved-face-svgrepo-com.svg" alt="" />
+            <h2 class="my-2 text-xl">Depressão</h2>
+          </div>
+          <p>
+            Pessoas com tristeza persistente, perda de prazer, dificuldades no
+            sono, desânimo, cansaço.
+          </p>
+        </div>
+        <div class="px-6 py-4 bg-red-200 rounded-2xl">
+          <div class="flex gap-5 items-center mb-2">
+            <img src="../img/hourglass-svgrepo-com.svg" alt="" />
+            <h2 class="text-xl">Ansiedade</h2>
+          </div>
+          <p>
+            Preocupação frequente, dificuldade de render no trabalho, angústia,
+            medo de situações cotidianas.
+          </p>
+        </div>
+        <div class="px-6 py-4 bg-red-200 rounded-2xl">
+          <div class="flex gap-5 items-center mb-2">
+            <img src="../img/sad-squint-svgrepo-com.svg" alt="" />
+            <h2 class="text-xl">Estresse</h2>
+          </div>
+
+          <p>
+            Irritação constante, comportamento explosivo, agressividade,
+            insônia, tensão.
+          </p>
+        </div>
+        <div class="px-6 py-4 bg-red-200 rounded-2xl">
+          <div class="flex gap-5 items-center mb-2">
+            <img src="../img/clock-svgrepo-com.svg" alt="" />
+            <h2 class="text-xl">Procrastinação</h2>
+          </div>
+
+          <p>
+            Dificuldade de iniciar ou finalizar tarefas, baixa produtividade,
+            rotina desorganizada..
+          </p>
+        </div>
+        <div class="px-6 py-4 bg-red-200 rounded-2xl">
+          <div class="flex gap-5 items-center mb-2">
+            <img src="../img/down-trend-round-svgrepo-com.svg" alt="" />
+            <h2 class="text-xl">Baixa autoestima</h2>
+          </div>
+
+          <p>
+            Insatisfação pessoal, sentimentos de inferioridade, autocríticas,
+            vergonha e insegurança.
+          </p>
+        </div>
+        <div class="px-6 py-4 bg-red-200 rounded-2xl">
+          <div class="flex gap-5 items-center mb-2">
+            <img src="../img/desktop-231-svgrepo-com.svg" alt="" />
+            <h2 class="text-xl">Terapia Online</h2>
+          </div>
+
+          <p>
+            Atendimento psicológico online, sem sair de casa, conforme
+            autorização do Conselho Federal de Psicologia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="p-12 bg-gradient-to-b from-white to-red-200">
+      <div class="grid gap-12 sm:flex sm:justify-between">
+        <div class="flex flex-col items-center justify-center">
+          <img class="md:pl-6 sm:hidden lg:block" src="../img/dd-removebg-preview.png" alt="" />
+          <h1 class="sm:hidden md:hidden text-2xl text-center lg:block">Laís Yamada</h1>
+          <h2 class="sm:hidden md:hidden text-xl lg:block">Psicologia</h2>
+        </div>
+
+        <ul class="grid gap-2">
+          <li class="sm:w-44 sm:h-10 p-2 bg-gradient-to-r from-green-500 via-emerald-300 to-green-800 rounded flex items-center justify-center"><a href="tel: +55 13981437582">Whatsapp</a></li>
+          <li class="sm:w-44 sm:h-10 p-2 border border-red-300 rounded flex items-center justify-center"><a href="mailto:laisnamyt@gmail.com">Email</a></li>
+          <li class="sm:w-44 sm:h-10 p-2 bg-gradient-to-r from-blue-500 to-blue-800 rounded flex items-center justify-center"><a href="https://www.linkedin.com/in/laistanaharayamada/"  target="_blank">Linkedin</a></li>
+        </ul>
+        <p class="sm:max-w-xs md:max-w-sm">
+          Atenção: o atendimento online não é recomendado para pessoas em
+          situação de violência, violação de direitos ou emergências. Em caso de
+          crise suicida ligue para <strong><a href="tel: +55 188">188 (CVV)</a></strong> ou
+          acesse o site <a class="text-blue-800" href="https://www.cvv.org.br">www.cvv.org.br</a>. Em
+          caso de emergência, procure atendimento em um hospital mais próximo.
+        </p>
+      </div>
+    </section>
+    
+  </body>
+</html>
